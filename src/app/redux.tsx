@@ -95,4 +95,3 @@ export default function StoreProvider({
     </Provider>
   );
 }
-/Users/aaceehmnprt / Documents;
