@@ -83,7 +83,7 @@ const Sidebar = () => {
           onClick={() => setShowProjects((prev) => !prev)}
           className="flex w-full items-center justify-between px-8 py-3 text-gray-800"
         >
-          <span className="">Projects</span>
+          <span className="text-green-500">Projects</span>
           {showProjects ? (
             <ChevronUp className="h-5 w-5" />
           ) : (
@@ -97,7 +97,7 @@ const Sidebar = () => {
           onClick={() => setShowPriority((prev) => !prev)}
           className="flex w-full items-center justify-between px-8 py-3 text-gray-800"
         >
-          <span className="">Priority</span>
+          <span className="text-green-500">Priority</span>
           {showPriority ? (
             <ChevronUp className="h-5 w-5" />
           ) : (
